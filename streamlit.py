@@ -1,7 +1,6 @@
 import xgboost as xgb
 import streamlit as st
 import pandas as pd
-import numpy as np
 #Loading up the Regression model we created
 model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
